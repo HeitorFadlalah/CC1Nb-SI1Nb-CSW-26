@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.link-musical {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black; 
+}
+
+.link-musical::before {
+    content: "* ";
+}
+
+.link-musical::after {
+    content: " *";
+}
+
+.link-musical:hover {
+    color: #1DB954; 
+}
+
+.link-musical:active {
+    color: #FF0000; 
+}
